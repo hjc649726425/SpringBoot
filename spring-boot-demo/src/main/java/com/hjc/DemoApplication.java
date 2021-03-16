@@ -12,6 +12,6 @@ public class DemoApplication {
 		ConfigurableApplicationContext context = SpringApplication.run(DemoApplication.class, args);
 		Object person = context.getBean("person");
 		System.out.println(person);
-		context.publishEvent(new MyEvent("test event"));
+		context.publishEvent(new MyEvent("test event 123"));
 	}
 }
