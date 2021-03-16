@@ -1,0 +1,10 @@
+server:
+  port: 9090
+
+person:
+  name: 张三
+  age: 30
+
+spring:
+  application:
+    name: Demo
